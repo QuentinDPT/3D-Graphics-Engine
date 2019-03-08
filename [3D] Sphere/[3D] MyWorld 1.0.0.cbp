@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="[3D] MyWorld 1.0.0" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/[3D] MyWorld 1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/[3D] MyWorld 1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="SDL2/include" />
+		</Compiler>
+		<Linker>
+			<Add library="SDL2\lib\libSDL2.dll.a" />
+			<Add library="SDL2\lib\libSDL2_image.dll.a" />
+			<Add library="SDL2\lib\libSDL2_mixer.dll.a" />
+			<Add library="SDL2\lib\libSDL2_ttf.dll.a" />
+			<Add directory="SDL2/lib" />
+		</Linker>
+		<Unit filename="Block.cpp" />
+		<Unit filename="Block.hpp" />
+		<Unit filename="Chunk.cpp" />
+		<Unit filename="Chunk.hpp" />
+		<Unit filename="Game.cpp" />
+		<Unit filename="Game.hpp" />
+		<Unit filename="Graphics.cpp" />
+		<Unit filename="Graphics.hpp" />
+		<Unit filename="Graphics3D.cpp" />
+		<Unit filename="Graphics3D.hpp" />
+		<Unit filename="Maths.cpp" />
+		<Unit filename="Maths.hpp" />
+		<Unit filename="Structures.hpp" />
+		<Unit filename="controllerIO.cpp" />
+		<Unit filename="controllerIO.hpp" />
+		<Unit filename="easysdl.cpp" />
+		<Unit filename="easysdl.hpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="progress.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

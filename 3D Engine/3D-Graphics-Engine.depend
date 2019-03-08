@@ -1,0 +1,725 @@
+# depslib dependency file v1.0
+1545666894 source:c:\users\quentin\desktop\3d-graphics-engine\main.cpp
+	<iostream>
+	"SDL_Window.hpp"
+
+1545666192 c:\users\quentin\desktop\3d-graphics-engine\graphics\graphics.hpp
+	<SDL2/SDL.h>
+	<SDL2/SDL_mixer.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_image.h>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1376272756 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272756 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272756 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1376272756 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1376272756 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272756 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\begin_code.h
+
+1376272756 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\close_code.h
+
+1376272756 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1376272756 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<intrin.h>
+	<libkern/OSAtomic.h>
+	"close_code.h"
+
+1376272756 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272756 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272756 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1376272756 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272756 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1376272756 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272756 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272756 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1376272756 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272756 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272756 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\sdl_pixels.h
+	"begin_code.h"
+	"close_code.h"
+
+1376272756 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272756 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272756 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1376272756 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272756 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1376272756 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1376272756 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272756 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272756 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272756 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1376272756 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272756 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272756 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272756 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272756 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272756 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272756 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272756 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272756 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272756 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272756 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376272756 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376152824 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376152942 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376152742 c:\users\quentin\desktop\3d-graphics-engine\sdl\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1545666881 source:c:\users\quentin\desktop\3d-graphics-engine\graphics\sdl_window.cpp
+	"SDL_Window.hpp"
+
+1545666778 c:\users\quentin\desktop\3d-graphics-engine\graphics\sdl_window.hpp
+	"Graphics.hpp"
+	<thread>
+	<string>
+
+1546396262 source:c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\main.cpp
+	<iostream>
+	"SDL_Window.hpp"
+
+1546396545 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\graphics\sdl_window.hpp
+	"Graphics.hpp"
+	<thread>
+	<string>
+	<vector>
+
+1545999351 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\graphics\graphics.hpp
+	<SDL2/SDL.h>
+	<SDL2/SDL_mixer.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_image.h>
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	"begin_code.h"
+	"close_code.h"
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\begin_code.h
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\close_code.h
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<intrin.h>
+	<libkern/OSAtomic.h>
+	"close_code.h"
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\sdl_pixels.h
+	"begin_code.h"
+	"close_code.h"
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"begin_code.h"
+	"close_code.h"
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1545996146 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\sdl\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1546396262 source:c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\graphics\sdl_window.cpp
+	"SDL_Window.hpp"
+	<iostream>
+	<algorithm>
+
+1546001264 source:c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\graphics\sdl_pen.cpp
+	"SDL_Pen.hpp"
+
+1546001198 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\graphics\sdl_pen.hpp
+	"Graphics.hpp"
+
+1546000294 source:c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\graphics\sdl_drawable.cpp
+	"SDL_Drawable.hpp"
+
+1546053989 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\graphics\sdl_drawable.hpp
+	"Graphics.hpp"
+	"SDL_Pen.hpp"
+
+1546000162 source:c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\graphics\sdl_shape.cpp
+	"SDL_Shape.hpp"
+
+1546044686 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\graphics\sdl_shape.hpp
+	"SDL_Pen.hpp"
+	"SDL_Drawable.hpp"
+
+1546393457 source:c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\graphics\renderer3d.cpp
+	"Renderer3D.hpp"
+
+1546396300 c:\users\pc-quentin\documents\developpement\git\3d-graphics-engine\graphics\renderer3d.hpp
+	"SDL_Window.hpp"
+
