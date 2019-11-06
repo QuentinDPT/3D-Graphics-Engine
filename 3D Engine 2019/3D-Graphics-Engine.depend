@@ -1073,11 +1073,11 @@
 	"begin_code.h"
 	"close_code.h"
 
-1572623514 source:c:\users\pc-quentin\desktop\application devloppement\programmes gui\2019 c++\3d-graphics-engine\3d engine 2019\main.cpp
+1572644842 source:c:\users\pc-quentin\desktop\application devloppement\programmes gui\2019 c++\3d-graphics-engine\3d engine 2019\main.cpp
 	<iostream>
 	"Graphics.hpp"
 
-1572625155 c:\users\pc-quentin\desktop\application devloppement\programmes gui\2019 c++\3d-graphics-engine\3d engine 2019\graphics\graphics.hpp
+1572645693 c:\users\pc-quentin\desktop\application devloppement\programmes gui\2019 c++\3d-graphics-engine\3d engine 2019\graphics\graphics.hpp
 	<SDL2/SDL.h>
 	<SDL2/SDL_mixer.h>
 	<SDL2/SDL_ttf.h>
@@ -1413,4 +1413,11 @@
 	"SDL_version.h"
 	"begin_code.h"
 	"close_code.h"
+
+1572625933 source:c:\users\pc-quentin\desktop\application devloppement\programmes gui\2019 c++\3d-graphics-engine\3d engine 2019\graphics\window.cpp
+	"Window.hpp"
+
+1572649109 c:\users\pc-quentin\desktop\application devloppement\programmes gui\2019 c++\3d-graphics-engine\3d engine 2019\graphics\window.hpp
+	<ostream>
+	"Graphics.hpp"
 

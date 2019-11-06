@@ -11,17 +11,46 @@
 #include <stdexcept>
 #include <algorithm>
 
-#ifndef DEFAULT_RENDERER
-#define DEFAULT_RENDERER SDL_RENDERER_SOFTWARE
-#endif // DEFAULT_BG_COLOR
+#define OUTPUT_MD       1
+#define OUTPUT_DEV      2
+#define OUTPUT_JSON     3
+#define OUTPUT_DEFAULT  OUTPUT_DEV
 
 namespace Graphics{
+
+    class warning : public std::exception
+    {
+    public:
+         warning(const std::string& msg) {}
+         const char* what() { return msg.c_str(); } //message of warning
+    private:
+         std::string msg;
+    };
+
+    uint8_t _output_options = OUTPUT_DEFAULT ;
 
     class _obj_debugable{
         public :
             virtual std::ostream& print(std::ostream& os) const = 0 ;
+            virtual std::ostream& print_md(std::ostream& os) const{
+                throw warning("Format de sortie non renseigner\nAjoutez 'std::ostream& print_md(std::ostream& os)'") ;
+            } ;
+            virtual std::ostream& print_JSON(std::ostream& os) const{
+                throw warning("Format de sortie non renseigner\nAjoutez 'std::ostream& print_md(std::ostream& os)'") ;
+            } ;
+
             friend std::ostream& operator<<(std::ostream& os, const _obj_debugable& _obj){
-                return _obj.print(os) ;
+
+                switch(_output_options){
+                case OUTPUT_DEV :
+                    return _obj.print(os) ;
+                case OUTPUT_MD :
+                    return _obj.print_md(os) ;
+                case OUTPUT_JSON :
+                    return _obj.print_JSON(os) ;
+                default :
+                    throw std::invalid_argument("\"Graphics::_output_options\" est en dehors de son domaine de definition") ;
+                }
             };
     };
 

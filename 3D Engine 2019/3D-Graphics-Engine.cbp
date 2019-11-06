@@ -45,10 +45,8 @@
 			<Add directory="SDL/lib" />
 		</Linker>
 		<Unit filename="Graphics/Graphics.hpp" />
-		<Unit filename="Graphics/Renderer3D.cpp" />
-		<Unit filename="Graphics/Renderer3D.hpp" />
-		<Unit filename="Graphics/SDL_Window.cpp" />
-		<Unit filename="Graphics/SDL_Window.hpp" />
+		<Unit filename="Graphics/Window.cpp" />
+		<Unit filename="Graphics/Window.hpp" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
